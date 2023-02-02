@@ -1,7 +1,7 @@
 {
   // Theme Color reference.
   // https://code.visualstudio.com/docs/getstarted/theme-color-reference
-  "$schema": "vscode://schemas/color-theme",
+  "$schema": "vscode://schemas/color-theme", //1
   "name": "Midnight Synth Purple (DARK)",
   "type": "dark",
   "colors": {
