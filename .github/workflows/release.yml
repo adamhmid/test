@@ -37,8 +37,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           major-wording: "MAJOR"
-          minor-wording: "feat:,add:"
-          patch-wording: "fix:,patch:"
+          minor-wording: "feat,add"
+          patch-wording: "fix,patch"
           skip-tag: "true"
           commit-message: "chore(release): {{version}} [skip ci]"
 
